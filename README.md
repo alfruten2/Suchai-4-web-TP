@@ -1,13 +1,13 @@
-# 🛰️ SUCHAI 4 — Ground Station Dashboard
+# 🛰️SUCHAI 4 — Ground Station Dashboard
 
 Dashboard de estación terrena y telemetría en tiempo real para el nanosatélite **SUCHAI 4** (CubeSat 1U), desarrollado por el Laboratorio de Exploración Espacial y Planetología (**LEEP**) de la **Universidad de Chile** en colaboración con la Fuerza Aérea de Chile (**FACh**).
 
-> 🎓 **Feria Técnico Profesional de Programación 2026**  
+> **Feria Técnico Profesional de Programación 2026**  
 > Proyecto interactivo de demostración de arquitectura web, propagación orbital y telemetría de satélites en órbita baja (LEO).
 
 ---
 
-## 📋 Ficha Técnica de la Misión
+## Ficha Técnica de la Misión
 
 | Parámetro | Especificación |
 | :--- | :--- |
@@ -24,18 +24,18 @@ Dashboard de estación terrena y telemetría en tiempo real para el nanosatélit
 
 ---
 
-## 🚀 Características del Dashboard
+## Características del Dashboard
 
-* 🌍 **Rastreador Orbital 2D en Vivo:** Visualización cartográfica interactiva mediante [Leaflet.js](https://leafletjs.com/), con cálculo de traza sobre el terreno (ground track), huella de cobertura RF ($\sim 2500\text{ km}$) y marcador de estación terrena con indicador de enlace.
-* ⚡ **Subsistema de Energía (EPS):** Monitorización de voltaje de paneles solares (ejes X, Y, Z), corriente generada y estado de carga de la batería Li-Ion.
-* 🌡️ **Telemetría Térmica y Cómputo (OBC):** Gráficos en tiempo real de temperaturas de CPU, placa base y payload, además de uso de CPU y memoria.
-* 📡 **Comunicaciones RF (COMMS):** Monitoreo de RSSI ($\text{dBm}$), relación señal-ruido (SNR en $\text{dB}$), tasa de datos y porcentaje de pérdida de paquetes.
-* 💻 **Terminal Decodificador AX.25:** Simulación de recepción de tramas en hexadecimal crudo y deserialización en tiempo real a objetos JSON.
-* 🎮 **Panel de Demostración:** Conmutación entre modos operativos (*Nominal*, *Eclipse*, *Descarga de Payload*) y control de aceleración temporal (*Time Warp*).
+*  **Rastreador Orbital 2D en Vivo:** Visualización cartográfica interactiva mediante [Leaflet.js](https://leafletjs.com/), con cálculo de traza sobre el terreno (ground track), huella de cobertura RF ($\sim 2500\text{ km}$) y marcador de estación terrena con indicador de enlace.
+*  **Subsistema de Energía (EPS):** Monitorización de voltaje de paneles solares (ejes X, Y, Z), corriente generada y estado de carga de la batería Li-Ion.
+*  **Telemetría Térmica y Cómputo (OBC):** Gráficos en tiempo real de temperaturas de CPU, placa base y payload, además de uso de CPU y memoria.
+*  **Comunicaciones RF (COMMS):** Monitoreo de RSSI ($\text{dBm}$), relación señal-ruido (SNR en $\text{dB}$), tasa de datos y porcentaje de pérdida de paquetes.
+*  **Terminal Decodificador AX.25:** Simulación de recepción de tramas en hexadecimal crudo y deserialización en tiempo real a objetos JSON.
+*  **Panel de Demostración:** Conmutación entre modos operativos (*Nominal*, *Eclipse*, *Descarga de Payload*) y control de aceleración temporal (*Time Warp*).
 
 ---
 
-## 🛠️ Arquitectura y Tecnologías
+## 🛠️Arquitectura y Tecnologías
 
 El proyecto está diseñado bajo un enfoque **Vanilla Web ligero y modular**, sin dependencias de compilación pesadas:
 
@@ -62,7 +62,7 @@ SuchaiWebTpToilet/
 
 ---
 
-## 💻 Instrucciones de Ejecución
+##  Instrucciones de Ejecución
 
 1. Clonar o descargar el repositorio:
    ```bash
@@ -73,7 +73,7 @@ SuchaiWebTpToilet/
 
 ---
 
-## 👥 Créditos y Referencias
+##  Créditos y Referencias
 
 * **Misión SUCHAI:** [Laboratorio de Exploración Espacial y Planetología (LEEP) - FCFM, Universidad de Chile](https://suchai.cl/).
 * **Desarrollo del Dashboard:** Presentación para la Feria Técnico Profesional de Programación 2026.
