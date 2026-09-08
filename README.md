@@ -1,6 +1,8 @@
-# 🛰️SUCHAI 4 — Ground Station Dashboard
+# 🛰️UCHAI 4 — Ground Station Dashboard
 
-Dashboard de estación terrena y telemetría en tiempo real para el nanosatélite **SUCHAI 4** (CubeSat 1U), desarrollado por el Laboratorio de Exploración Espacial y Planetología (**LEEP**) de la **Universidad de Chile** en colaboración con la Fuerza Aérea de Chile (**FACh**).
+Este proyecto nace con la intención de recibir y decodificar señales satelitales del satelite SUCHAI4, esto en colaboración con
+SPEAL, profesores y alumnos de la USACH y la Universidad de Chile.
+Sumado a esto mostrar de forma interactiva el trabajo realizado a trabes de un Dashboard.
 
 > **Feria Técnico Profesional de Programación 2026**  
 > Proyecto interactivo de demostración de arquitectura web, propagación orbital y telemetría de satélites en órbita baja (LEO).
@@ -35,7 +37,7 @@ Dashboard de estación terrena y telemetría en tiempo real para el nanosatélit
 
 ---
 
-## 🛠️Arquitectura y Tecnologías
+## ️Arquitectura y Tecnologíass del Dashboard 
 
 El proyecto está diseñado bajo un enfoque **Vanilla Web ligero y modular**, sin dependencias de compilación pesadas:
 
@@ -54,27 +56,20 @@ SuchaiWebTpToilet/
 └── README.md                   # Documentación oficial del proyecto
 ```
 
-* **Librerías externas:**
-  * [Leaflet.js v1.9.4](https://leafletjs.com/) (Mapas y capas geográficas)
-  * [Chart.js v4.4.4](https://www.chartjs.org/) (Gráficos de telemetría de alto rendimiento)
-  * [CartoDB Basemaps](https://carto.com/basemaps/) (Tiles cartográficos)
-  * Fuentes: *Inter* & *JetBrains Mono* (Google Fonts)
+## Link de repositorios externos y guías de uso e instalación.
+> https://spel.cl/news/2026/07/24/suchai4-decode.html 
+  Quía de uso e instalación de las herramientas de decodificado.
+> https://gitlab.com/scy-fi/thesis/diy-groundstation/-/blob/station_test/README.md?ref_type=heads
+  Guía de uso e instalación de herramientas para grabar y captaar señales satelitales.
+> https://gitlab.com/spel-uchile/suchai-4/suchai-4-groundstation
+  Repositorios oficiales del trabajo realizado por SPEAL.
 
----
+Ademas de las herramientas de sofware utlizadas en el proyecto cabe mencionar el uso de hardware utilizado
+en el proyecto:
 
-##  Instrucciones de Ejecución
+- Raspyberry 3
+- Antena Yag
+- Laptops personales
 
-1. Clonar o descargar el repositorio:
-   ```bash
-   git clone https://github.com/tu-usuario/SuchaiWebTpToilet.git
-   ```
-2. Abrir directamente el archivo `index.html` en cualquier navegador moderno:
-   * **Linux / Mac / Windows:** Doble clic en `index.html` o abrir con un servidor local ligero (ej: extensión *Live Server* de VS Code o `python3 -m http.server 8080`).
-
----
-
-##  Créditos y Referencias
-
-* **Misión SUCHAI:** [Laboratorio de Exploración Espacial y Planetología (LEEP) - FCFM, Universidad de Chile](https://suchai.cl/).
-* **Desarrollo del Dashboard:** Presentación para la Feria Técnico Profesional de Programación 2026.
-
+No fue requerido tanto material físico gracias a la versatilidad del software y las estaciones terrenas.
+ 
