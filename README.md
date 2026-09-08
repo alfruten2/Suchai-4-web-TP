@@ -52,7 +52,6 @@ SuchaiWebTpToilet/
 │   ├── charts.js               # Gestor reactivo de gráficas Chart.js
 │   ├── terminal.js             # Decodificador y formateador de tramas AX.25
 │   └── app.js                  # Controlador principal y bucle de eventos
-├── GUI_ROADMAP.txt             # Hoja de ruta y plan de rediseño técnico
 └── README.md                   # Documentación oficial del proyecto
 ```
 
